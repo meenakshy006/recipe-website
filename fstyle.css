@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("image/bgimage.jpg");
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color:#fff8e1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(5, 2, 2, 0.1);
+}
+
+.main-title {
+    text-align: center;
+    color: #f57c00;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #e65100;
+    margin-top: 40px;
+}
+
+.section-title {
+    color: #0277bd;
+    border-bottom: 2px solid #121010;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.comment-form input,
+.comment-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.comment-form button {
+    width: 120px;
+    padding: 10px;
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #e65100;
+}
+
